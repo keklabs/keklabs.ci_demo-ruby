@@ -14,4 +14,6 @@ This project is used for demonstration of building Ruby projects with CI-Tools l
 
 - https://github.com/keklabs/keklabs.ci_demo-ruby
 - https://wiki.jenkins-ci.org/display/JENKINS/2.0+Pipeline+as+Code
-- 
+- https://go.cloudbees.com/docs/cloudbees-documentation/cje-user-guide/chapter-docker-workflow.html
+- https://github.com/jenkinsci/pipeline-examples
+
