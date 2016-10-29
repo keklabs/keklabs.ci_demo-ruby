@@ -8,7 +8,7 @@ stage('Dev') {
        // servers = load 'servers.groovy'
        // mvn '-o clean package'
        // dir('target') {stash name: 'war', includes: 'x.war'}
-       sh "rake package"
+      // sh "rake package"
     }
 }
 
