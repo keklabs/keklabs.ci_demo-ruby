@@ -22,13 +22,13 @@ stage('QA') {
 
 milestone 1
 stage('Staging') {
-    lock(resource: 'staging-server', inversePrecedence: true) {
+  //lock not supported  lock(resource: 'staging-server', inversePrecedence: true) {
         milestone 2
         node {
            // servers.deploy 'staging'
         }
         input message: "Does ${jettyUrl}staging/ look good?"
-    }
+  //  }
     try {
         checkpoint('Before production')
     } catch (NoSuchMethodError _) {
