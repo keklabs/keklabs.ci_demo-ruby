@@ -17,3 +17,7 @@ This project is used for demonstration of building Ruby projects with CI-Tools l
 - https://go.cloudbees.com/docs/cloudbees-documentation/cje-user-guide/chapter-docker-workflow.html
 - https://github.com/jenkinsci/pipeline-examples
 
+- https://github.com/jenkinsci/github-branch-source-plugin  - inspiration for our CODEBASE-branch-source-plugin
+
+- https://jenkins.io/blog/2016/08/10/rails-cd-with-pipeline/  !!!!
+
